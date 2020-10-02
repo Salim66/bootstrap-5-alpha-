@@ -17,21 +17,21 @@
 - black-50
 ```
 
-#### Background Colors(bg)
+#### Text
 ```javaScript
-- primary
-- secondary
-- success
-- info
-- warning
-- danger
-- dark
-- light
-- white
-- transparent
+- text-color
+- bg-color
+- bg-gradient
+- text-align-(left, right, center)
+- text-(wrap, nowrap)
+- text-break
+- text-reset
+- text-transform (uppercase, lowercase, capitalize)
+- font-weight-(lighter, light, normal, bold, bolder)
+- font-italic
+- lh-(1, sm, base, lg)
+- font-monospace
+- text-decoration-(none, underline, line-through)
+
 ```
 
-#### Gradient Colors(bg-gradient)
-```javaScript
-- bg-gradient
-```

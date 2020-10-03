@@ -1,5 +1,7 @@
 ## Bootstrap 5 Alpha Learning
 
+### Utilitis
+
 #### Bootstrap Colors
 ```html
 - primary
@@ -87,6 +89,60 @@
 - bottom-(0, 50,100)
 - left-(0, 50,100)
 - right-(0, 50,100)
+- center elements (translate-middle)
 
 ```
 
+#### Overflow
+```javaScript
+- overflow-(hidden, auto)
+
+```
+
+#### Interactions
+```javaScript
+- user-select-(all,auto,none)
+
+```
+
+#### Float
+```javaScript
+- float-(left, right, none)
+
+```
+
+#### Display
+```javaScript
+- d-(block, inline, inline-block, table)
+
+```
+
+#### Border
+```javaScript
+- border
+- border-color
+- border-(1, 2, 3, 4, 5)
+- rounded-(top, left, right, bottom, circle, pill, 0)
+
+```
+
+### Helpers
+```javaScript
+- clearfix
+- colored links (link-primary, link-secondary, .....)
+- ratio
+- ratio-(1x1, 4x3, 16x9, 21x9)
+- position (fixed-top, fixed-bottom, sticky-top)
+- visibility-(hidden, hidden-focusable)
+- text-truncate
+
+```
+
+### Components
+```javaScript
+- alert
+- badge
+- breadcrumb
+- button
+
+```

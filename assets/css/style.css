@@ -2,16 +2,6 @@ body {
 	margin: 100px;
 }
 
-
-p {
-	text-align: justify;
-	margin-bottom: 0px;
-}
-
-span {
-	display: block;
-	background-color: red;
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
+.box {
+	width: 300px;
 }

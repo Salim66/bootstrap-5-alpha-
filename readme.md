@@ -143,6 +143,20 @@
 - alert
 - badge
 - breadcrumb
-- button
+- button (btn-color, btn-outline-color, btn-sm, btn-lg, btn-block,)
+- btn-group, active, btn-check, btn-toolbar, btn-group-sm, btn-group-sm, btn-group-vertical
+- card
+- card-(header, body, footer, title, text, link)
+- carousel, slide, data-ride='carousel'
+- carousel-(inner, item, control-prev, control-next, control-prev-icon, control-next-icon)
+- data-slide="prev"
+- data-slide="next"
+- aria-hidden="true"
+- carousel-indicators, data-target="#", data-slide-to="0"
+- carousel-fade
+- data-interval="times"
+- data-pause="true/hover"
+ -data-wrap="true/false"
+
 
 ```

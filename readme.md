@@ -143,10 +143,16 @@
 - alert
 - badge
 - breadcrumb
+
+===Button===
 - button (btn-color, btn-outline-color, btn-sm, btn-lg, btn-block,)
 - btn-group, active, btn-check, btn-toolbar, btn-group-sm, btn-group-sm, btn-group-vertical
+
+===Card===
 - card
 - card-(header, body, footer, title, text, link)
+
+===Carousel Slide===
 - carousel, slide, data-ride='carousel'
 - carousel-(inner, item, control-prev, control-next, control-prev-icon, control-next-icon)
 - data-slide="prev"
@@ -156,7 +162,17 @@
 - carousel-fade
 - data-interval="times"
 - data-pause="true/hover"
- -data-wrap="true/false"
+- data-wrap="true/false"
+- data-parent="#"
 
+===Dropdown===
+- dropdown
+- dropdown-(menu, item, toggle)
+- data-toggle="dropdown"
+- dropdown-divider
+
+===Modal===
+- modal, fade
+- modal-(dialog, content, header, body, footer)
 
 ```

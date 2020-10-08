@@ -163,6 +163,12 @@
 - data-interval="times"
 - data-pause="true/hover"
 - data-wrap="true/false"
+
+===Collapse===
+- collapse
+- data-toggle="collapse"
+- data-target="#"
+- accordion
 - data-parent="#"
 
 ===Dropdown===

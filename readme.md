@@ -146,7 +146,7 @@
 
 ===Button===
 - button (btn-color, btn-outline-color, btn-sm, btn-lg, btn-block,)
-- btn-group, active, btn-check, btn-toolbar, btn-group-sm, btn-group-sm, btn-group-vertical
+- btn-group, active, btn-check, btn-toolbar, btn-group-sm, btn-group-lg, btn-group-vertical
 
 ===Card===
 - card
@@ -180,5 +180,126 @@
 ===Modal===
 - modal, fade
 - modal-(dialog, content, header, body, footer)
+
+===Nav===
+- nav, nav-item, nav-link
+- nav-tabs, nav-pills
+
+===Navbar===
+- navbar, navbar-brand, navbar-item, navbar-link, navbar-expand-(sm, md, lg)
+- navbar-light, bg-light
+
+===Pagination===
+- pagination, page-item, page-link
+
+===PopOver===
+- data-toggle="popover", title="", data-content="", data-trigger="focus"
+
+===Progress===
+- progress, progress-bar, progress-bar-striped, progress-bar-animated, style="%"
+
+===Scrollspy===
+<ul class="nav sticky-top">
+		<li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
+		<li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+		<li class="nav-item"><a class="nav-link" href="#Blog">Blog</a></li>
+		<li class="nav-item"><a class="nav-link" href="#Course">Course</a></li>
+		<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+	</ul>
+
+<div class="content">
+		<div id="Home">
+			<h1>Home</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque, odio nemo </p>
+		</div>
+		<div id="About">
+			<h1>About</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque, odio nemo ipsam aut?</p>
+		</div>
+		<div id="Blog">
+			<h1>Blog</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque, odio nemo ipsam aut?</p>
+		</div>
+		<div id="Course">
+			<h1>Course</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque, odio nemo ipsam aut?</p>
+		</div>
+		<div id="Contact">
+			<h1>Contact</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque, odio nemo ipsam aut?</p>
+		</div>
+</div>
+
+===Spinners===
+- spinner-(border, grow, border-sm), aria-hidden="true"
+- visually-hidden
+
+===Toast===
+- toast-(header, body, footer)
+
+===Tooltips==
+- data-toggle="tooltip"
+- data-placement="top,right,left,bottom"
+- title=""
+
+```
+
+
+###Form
+```javaScript
+- form-label, form-control, form-control-lg/sm, form-control-color
+- form-select, form-select-lg/sm
+- form-(check, check-label, check-control, switch, check-inline)
+- form-(file, file-input, file-label, file-text, file-button)
+- range, form-range
+- input-(group, group-text)
+
+```
+
+###Layout
+```html
+===Grid===
+	<div class="container">
+	  <div class="row">
+	    <div class="col-sm">
+	      One of three columns
+	    </div>
+	    <div class="col-sm">
+	      One of three columns
+	    </div>
+	    <div class="col-sm">
+	      One of three columns
+	    </div>
+	  </div>
+	</div>
+
+===Grid Option===
+- Extra small(xs) 0px-575px
+- Small(sm) 576px-767
+- Medium(md) 768px-991px
+- Large(lg) 992px-1199px
+- Extra Large(xl) 1200px-1399px
+- Extra Extra Large(xxl) 1400px......
+
+$grid-columns:      12;
+$grid-gutter-width: 1.5rem;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
 
 ```
